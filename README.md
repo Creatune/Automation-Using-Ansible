@@ -1,6 +1,6 @@
 # Automation-Using-Ansible
 
-This is my Google Codein task - to test any fedora release. Here is the playbook :-
+This is my Google Codein task - to test any fedora release. Here is the playbook :-<br><br><br>
 
 
 ---<br>
@@ -8,21 +8,18 @@ This is my Google Codein task - to test any fedora release. Here is the playbook
   connection: local<br>
   become: yes<br>
   tasks:<br>
-<br>
   - name: check-status<br>
     command: systemctl status bluetooth.service<br>
-<br>
   - name: stop-service<br>
     command: systemctl stop bluetooth.service<br>
-<br>
   - name: restart-service<br>
     command: systemctl restart bluetooth.service<br>
-    
-    
-
+    <br>
+    <br>
+<br>
 Here is the asciinema recording :-
 https://asciinema.org/a/NCPFBI39cQb4c9XcDEYNohrlS
-
+<br>
 Here I tested the bluetooth.service using systemctl (as you can see in the playbook)
-    
+<br>    
 Hope you like it :)
