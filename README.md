@@ -1,5 +1,10 @@
 # Automation-Using-Ansible
-
+<head>
+div {
+    width: 200px;
+    word-wrap: break-word;
+}
+</head>
 This is my Google Codein task - to test any fedora release. Here is the playbook :-<br><br><br>
 
 ---
