@@ -22,4 +22,5 @@ https://asciinema.org/a/NCPFBI39cQb4c9XcDEYNohrlS
 <br>
 Here I tested the bluetooth.service using systemctl (as you can see in the playbook)
 <br>    
-Hope you like it :)
+Hope you like it :)<br>
+This testing can be done with other services too.
