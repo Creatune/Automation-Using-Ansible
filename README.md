@@ -3,20 +3,20 @@
 This is my Google Codein task - to test any fedora release. Here is the playbook :-
 
 
----
-- hosts: 127.0.0.1
-  connection: local
-  become: yes
-  tasks:
-
-  - name: check-status
-    command: systemctl status bluetooth.service
-
-  - name: stop-service
-    command: systemctl stop bluetooth.service
-
-  - name: restart-service
-    command: systemctl restart bluetooth.service
+---<br>
+- hosts: 127.0.0.1<br>
+  connection: local<br>
+  become: yes<br>
+  tasks:<br>
+<br>
+  - name: check-status<br>
+    command: systemctl status bluetooth.service<br>
+<br>
+  - name: stop-service<br>
+    command: systemctl stop bluetooth.service<br>
+<br>
+  - name: restart-service<br>
+    command: systemctl restart bluetooth.service<br>
     
     
 
